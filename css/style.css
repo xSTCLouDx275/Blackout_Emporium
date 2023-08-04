@@ -1,0 +1,277 @@
+/* Estilo global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    height: 80px;
+}
+
+.center {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav.menu a {
+    color: #fff;
+    text-decoration: none;
+    /*margin-left: 20px;*/
+    font-weight: bold;
+}
+
+nav.menu a:hover {
+    color: #ffcd00;
+}
+
+/* Estilo para a seção de destaque */
+main {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.destaque {
+    background-color: #ffcd00;
+    padding: 50px;
+    text-align: center;
+}
+
+.destaque h1 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.destaque p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.botao {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #ffcd00;
+    color: #333;
+}
+
+/* Estilo para a seção de cardápio */
+.cardapio h2 {
+    text-align: center;
+}
+
+
+.cardapio .container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.cardapio .container img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardapio .container h3 {
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cardapio .container p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+
+/* Estilo para o Rodapé */
+.sobre {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.sobre h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.sobre a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.contato {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+}
+
+.contato h2 {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.contato form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contato label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contato input,
+.contato textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contato input[type="submit"] {
+    background-color: #ffcd00;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contato input[type="submit"]:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    .center {
+        flex-direction: column;
+    }
+}
+
+.logo img {
+    margin-bottom: 20px;
+}
+
+nav.menu a {
+    margin: 0;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.container img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a seção de depoimentos */
+.depoimentos {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.depoimentos h2 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.depoimentos p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.depoimentos .autor {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Estilo para a seção de contatos */
+.contatos {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+}
+
+.contatos h2 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.contatos .icone {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contatos p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.contatos .link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+}
+
+.contatos .link:hover {
+    color: #ffcd00;
+    border-bottom: 2px solid #ffcd00;
+}
+
+/* Estilo para a seção de rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

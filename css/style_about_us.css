@@ -1,0 +1,104 @@
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+}
+
+.center {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav.menu a:hover {
+  color: #ffcd00;
+}
+
+/* Seção hero */
+.hero {
+  background-image: url('/Blackout_Emporium/assets/pizza-bg.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-container {
+  height: 100px;
+  background-color: #000000;
+  display: inline-block;
+  padding: 10px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  height: 90px;
+  padding-left: 96.35px;
+  padding-right: 100px;
+  background-color: #000000;
+  color: whitesmoke;
+}
+
+.logo-container img {
+  max-width: 100%;
+}
+
+/* Conteúdo */
+.content {
+  padding: 50px;
+  text-align: justify;
+}
+
+/* Botão */
+.button {
+  background-color: #ffcd00;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: -20px;
+}
+
+.button:hover {
+  background-color: #333;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
